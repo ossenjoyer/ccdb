@@ -1,0 +1,19 @@
+{
+  "name": "ccdb",
+  "version": "3.0.0",
+  "description": "Simple data storage based on JSON",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build" : "tsc"
+  },
+  "author": "denkisil",
+  "repository": {
+    "url": "https://github.com/denkisil/ccdb"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  }
+}
