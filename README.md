@@ -1,7 +1,8 @@
 # CCDB - Simple data storage tool, based on JSON
 
 
-1. [About](#about)
+0. [About](#about)
+1. [Install](#install)
 2. [Examples](#examples)
 3. [API Reference](#api-reference)
     - [Types](#types)
@@ -30,6 +31,11 @@ You can modify database file personally, because CCDB database file just JSON do
 CCDB works by scheme "one model - one database file". It's made to prevent main database file bloat;
 CCDB have simple API for working with database data. Also, you can make model schemas for tipyzing your model data;
 And this package wroten on Typescript, so you can use this package in Typescript too;
+
+# Install
+```
+npm i ccdb # for TypeScript and any JavaScript standarts
+```
 
 # Examples
 ```typescript
